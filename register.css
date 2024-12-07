@@ -1,0 +1,84 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe); /* Light blue gradient */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+/* Form Container Styling */
+.form-container {
+    background: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Form Heading */
+h1 {
+    font-size: 28px;
+    color: #4facfe; /* Light blue matching gradient */
+    margin-bottom: 20px;
+}
+
+/* Input Fields Styling */
+input {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f9f9f9;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1); /* Slight inset effect */
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Placeholder Styling */
+input::placeholder {
+    color: #aaa;
+}
+
+/* Focus Effect for Input */
+input:focus {
+    border-color: #4facfe;
+    box-shadow: 0 0 8px rgba(79, 172, 254, 0.5);
+}
+
+/* Submit Button Styling */
+button {
+    background: #4facfe;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover Effect for Button */
+button:hover {
+    background: #00c6ff;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Active Effect for Button */
+button:active {
+    background: #0093c4;
+    transform: translateY(0);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}

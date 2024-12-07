@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Bed Room</title>
+    <link rel="stylesheet" href="double.css">
+</head>
+<body>
+    <div class="room-details">
+        <h1>Double Bed Room</h1>
+        <img src="double.jpg" alt="Double Bed Room">
+        <p style="font-size: 20px; font-weight: bold; color: #4CAF50;">
+            Spacious and ideal for two people, this double bed room is equipped with modern facilities.
+        </p>
+        <p>
+            <strong>Optimized Space:</strong> The average surface area is often between 18 m² and 30 m², suitable for basic needs without unnecessary excess.
+        </p>
+        <p>
+            <strong>Access to amenities:</strong> Television, Internet connection, work desk, storage cupboard, or small table are included.
+        </p>
+        <p>The room includes a double bed, two pillows, and two towels for your comfort.</p>
+        
+        <h3>Price: 12K BDT Per Month</h3>
+
+        <div class="links">
+            <a href="costDouble.html" class="info-link">Cost Information</a>
+            <a href="ownerDouble.html" class="info-link">Owner Information</a>
+        </div>
+
+        <h2>Choose Payment Method:</h2>
+        <form action="confirmation.html" method="post">
+            <label>
+                <input type="radio" name="payment" value="bkash" required> Bkash
+            </label>
+            <label>
+                <input type="radio" name="payment" value="mastercard" required> MasterCard
+            </label>
+
+            <div class="payment-details">
+                <h3>Payment Details:</h3>
+                <input type="text" name="name" placeholder="Name on Card/Account" required>
+                <input type="number" name="card_number" placeholder="Card/Account Number" required>
+                <input type="text" name="expiry_date" placeholder="Expiry Date (MM/YY)" required>
+                <input type="number" name="amount" placeholder="Amount" required>
+                <input type="password" name="pin" placeholder="Enter PIN" required>
+            </div>
+
+            <button type="submit">Confirm Booking</button>
+        </form>
+    </div>
+</body>
+</html>

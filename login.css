@@ -1,0 +1,88 @@
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Centered Form Container */
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Input Fields and Button Styling */
+input, button {
+    display: block;
+    width: 90%;
+    margin: 15px auto;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    transition: all 0.3s ease;
+}
+
+input::placeholder {
+    color: #e0e0e0;
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border: 2px solid #ffffff;
+}
+
+/* Button Styling */
+button {
+    background: #4caf50;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #45a049;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+}
+
+button:active {
+    background: #3e8e41;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transform: translateY(0);
+}
+
+/* Anchor Link Styling */
+a {
+    display: block;
+    margin: 15px 0;
+    color: #00f2fe;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #4facfe;
+}

@@ -1,0 +1,122 @@
+/* General Body Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #1f3a73, #2a6f97); /* Nevi Blue gradient */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Room Details Section */
+.room-details {
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.6); /* Darkened background to match the blue theme */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5); /* Enhanced shadow for a deeper effect */
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Image Styling */
+img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Darker shadow around the image */
+}
+
+/* Form Styling */
+form {
+    margin-top: 20px;
+}
+
+/* Payment Details Section */
+.payment-details {
+    margin-top: 20px;
+    text-align: left;
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.payment-details input {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.payment-details input::placeholder {
+    color: #e0e0e0;
+}
+
+.payment-details input:focus {
+    background: rgba(255, 255, 255, 0.3);
+    border: 2px solid #ffffff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Styling */
+button {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #3498db; /* Nevi Blue for button */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background: #2980b9; /* Darker blue on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+    transform: translateY(-2px);
+}
+
+button:active {
+    background: #2471a3; /* Even darker blue on active */
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(0);
+}
+
+/* Links Section */
+.links {
+    margin: 20px 0;
+}
+
+.info-link {
+    display: inline-block;
+    margin: 10px 15px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background: #3498db; /* Blue for links */
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+}
+
+.info-link:hover {
+    background: #2980b9;
+}

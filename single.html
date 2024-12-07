@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Bed Room</title>
+    <link rel="stylesheet" href="single.css">
+</head>
+<body>
+    <div class="room-details">
+        <h1>Single Bed Room</h1>
+        <img src="single.jpg" alt="Single Bed Room">
+        <p style="font-size: 24px; font-weight: bold; font-style: italic; color: #ff6347;">
+            This cozy single bed room is perfect for solo travelers. Fully furnished with all basic amenities.
+        </p>
+        <p>
+            <strong>Optimized Space:</strong> The average surface area is often between 9 m² and 15 m², suitable for basic needs without unnecessary excess.
+        </p>
+        <p>
+            <strong>Access to amenities:</strong> Television, Internet connection, work desk, storage cupboard, or small table are included.
+        </p>
+        <p>The room includes a single bed, one pillow, and one towel for your comfort.</p>
+        
+        <h3>Price: 7K BDT Per Month</h3>
+
+        <div class="links">
+            <a href="costSingle.html" class="info-link">Cost Information</a>
+            <a href="ownerSingle.html" class="info-link">Owner Information</a>
+        </div>
+
+        <h2>Choose Payment Method:</h2>
+        <form action="confirmation.html" method="post">
+            <label>
+                <input type="radio" name="payment" value="bkash" required> Bkash
+            </label>
+            <label>
+                <input type="radio" name="payment" value="mastercard" required> MasterCard
+            </label>
+
+            <div class="payment-details">
+                <h3>Payment Details:</h3>
+                <input type="text" name="name" placeholder="Name on Card/Account" required>
+                <input type="number" name="card_number" placeholder="Card/Account Number" required>
+                <input type="date" name="expiry_date" placeholder="Expiry Date (MM/YY)" required>
+                <input type="number" name="amount" placeholder="Amount" required>
+                <input type="password" name="pin" placeholder="Enter PIN" required>
+            </div>
+
+            <button type="submit">Confirm Booking</button>
+        </form>
+    </div>
+</body>
+</html>

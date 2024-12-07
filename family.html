@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Bed Room</title>
+    <link rel="stylesheet" href="family.css">
+</head>
+<body>
+    <div class="room-details">
+        <h1>Family Bed Room</h1>
+        <img src="family.jpg" alt="Family Bed Room">
+        <p style="font-size: 24px; font-weight: bold; color: #07171a;">
+            Designed for families, this room offers multiple beds, ample space, and luxury amenities. 
+            The average surface area of the room is between 15 m² and 20 m², ideal for basic needs without unnecessary excess.
+        </p>
+        
+        <h3>Price: 20K BDT Per Month</h3>
+
+        <div class="links">
+            <a href="costFamily.html" class="info-link">Cost Information</a>
+            <a href="ownerFamily.html" class="info-link">Owner Information</a>
+        </div>
+
+        <h2>Choose Payment Method:</h2>
+        <form action="confirmation.html" method="post">
+            <label>
+                <input type="radio" name="payment" value="bkash" required> Bkash
+            </label>
+            <label>
+                <input type="radio" name="payment" value="mastercard" required> MasterCard
+            </label>
+
+            <div class="payment-details">
+                <h3>Payment Details:</h3>
+                <input type="text" name="name" placeholder="Name on Card/Account" required>
+                <input type="number" name="card_number" placeholder="Card/Account Number" required>
+                <input type="date" name="expiry_date" placeholder="Expiry Date (MM/YY)" required>
+                <input type="number" name="amount" placeholder="Amount" required>
+                <input type="password" name="pin" placeholder="Enter PIN" required>
+            </div>
+
+            <button type="submit">Confirm Booking</button>
+        </form>
+    </div>
+</body>
+</html>

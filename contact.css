@@ -1,0 +1,84 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+    color: #333;
+}
+
+/* Contact Section */
+.contact-section {
+    text-align: center;
+    padding: 20px;
+    background: #0078d7;
+    color: #fff;
+}
+
+.contact-section h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.contact-info a {
+    color: #ffdd57;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Credits Section */
+.credits {
+    padding: 30px;
+    background: #fff;
+    text-align: center;
+}
+
+.credits h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #566a8b;
+}
+
+.team-member {
+    display: inline-block;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    background: #f4f4f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.credit-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.credit-link {
+    color: #0078d7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.credit-link:hover {
+    text-decoration: underline;
+}
